@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto&display=swap');
+
+/*falta fotter lista a la izquierda*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "roboto";
+    background:  #E5E5E5;
+}
+        /*header*/
+header section{
+    height: 100px;
+    display:flex;
+    background: #222222;
+    color: white;
+    justify-content: space-between;
+
+}
+
+header section nav ul{
+    display: flex;
+    list-style: none;
+    margin: 7.5% 20px;
+}
+
+nav ul li{
+    margin: 13px;
+}
+
+.tamañologo{
+    margin: 10px 20px;
+    width: 235px;
+    height: 80px;
+}
+
+/*main*/
+main{
+    display: flex;
+    margin: 50px 20px 50px 20px;
+}
+
+main div.boxone{
+    width: 50%;
+    position: relative;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+main div.boxone img{
+    width: 100%;
+    height: 100%;
+}
+
+main div.boxone h2{
+    position: absolute;
+    color: red;
+    margin: 20px 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+main div.boxone span{
+    color: white;
+}
+
+main div.boxtwo{
+    width: 50%;
+    background: white;
+    border-radius: 5px;
+}
+
+main div.boxtwo h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color:red;
+}
+
+main div.boxtwo div{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+main div.boxtwo div section h3{
+    margin: 20px 50px;
+}
+
+main div.boxtwo div section ol li{
+    margin: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+main div img.saborespizza{
+    height: 130px;
+    width: 90px;
+    margin-top: 50px;
+}
+
+        /*footter*/
+
+footer section{
+    height: 150px;
+    display:flex;
+    background: #222222;
+    justify-content: space-between;
+}
+
+
+footer section nav ul{
+    list-style: none;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+footer section img.tamañologo{
+    margin: 35px 50px;
+}
+
+
+
+
